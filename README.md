@@ -1,1 +1,1 @@
-# class-86-pro
+https://sbbbotgh.github.io/class-86-pro/
