@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Birthday wishes</title>
+<link rel="stylesheet" href="style.css">
+<script src="fabric.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body_backgorund" onload="open_it()">
+	<div id="gliter" style="background-size: 400px;">
+	<center>
+		<div><div>
+			<h1 class="span_h c_blue">H</h1>
+			<h1 class="span_h c_red">A</h1>
+			<h1 class="span_h c_yellow">P</h1>
+			<h1 class="span_h c_green">P</h1>
+			<h1 class="span_h c_purple">Y</h1>
+			<h1 class="span_h c_red"> B</h1>
+			<h1 class="span_h c_green">I</h1>
+			<h1 class="span_h c_orange">R</h1>
+			<h1 class="span_h c_blue">T</h1>
+			<h1 class="span_h c_purple">H</h1>
+			<h1 class="span_h c_red">D</h1>
+			<h1 class="span_h c_yellow">A</h1>
+			<h1 class="span_h c_orange">Y</h1>
+			</div><div>
+			<h1 class="span_h c_red">M</h1>
+			<h1 class="span_h c_yellow">O</h1>
+			<h1 class="span_h c_red">M</h1>
+		</div></div>
+		<br><br>
+		<!--- Create canvas --->
+		<canvas id="myCanvas" height="600" width="400"></canvas>
+		<br>
+		<p id="note"> oh! sorry mom I Tied the rope too hard,<br>Double click on the button.</p>
+		<br>
+		<!--- Create Bootstrap button --->
+		<button type="button" class="btn-success" id="myButton" onclick="btn_click()" ondblclick="btn_open()">OPEN ME</button>
+	</center>
+</div>
+	<audio id="myAudio" src="bdayaudio.mp3"></audio>
+	<script src="main.js"></script>
+</body>
+</html>

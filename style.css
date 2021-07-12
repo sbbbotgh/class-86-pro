@@ -1,0 +1,70 @@
+.body_backgorund 
+{
+    background-image:url(birtyday_background.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+#myCanvas{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+}
+
+.span_h{
+    display: inline-block;
+    color: white;
+}
+
+.c_blue{
+    background-color: blue !important;
+    padding: 5px !important;
+    border-radius: 50px;
+}
+
+.c_red{
+    background-color: red !important;
+    padding: 5px !important;
+    border-radius: 50px;
+}
+
+.c_yellow{
+    background-color: yellow !important;
+    padding: 5px !important;
+    border-radius: 50px;
+}
+
+.c_green{
+    background-color: green !important;
+    padding: 5px !important;
+    border-radius: 50px;
+}
+
+.c_purple{
+    background-color: purple !important;
+    padding: 5px !important;
+    border-radius: 50px;
+}
+
+.c_orange{
+    background-color: orange !important;
+    padding: 5px !important;
+    border-radius: 50px;
+}
+
+#myCanvas
+{
+   border: white;
+   border-style:ridge;
+   border-width: 8px;
+}
+
+#note{
+    visibility: hidden;
+}
+
+#myButton{
+    margin: 50px;
+
+}
